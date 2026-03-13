@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Execution Context</title>
+    <script>
+        console.log(n1);
+        var n1 = 10;        
+        console.log(n2);
+        var n2 = 20;
+        console.log(Sum);
+        function Sum(a,b)
+        {
+            var res=0;
+            res=a+b;
+            return res;
+        }
+       var res1= Sum(n1,n2);
+       console.log(res1);
+    </script>
+</head>
+<body>
+    <h1>Execution Context</h1>
+</body>
+</html>
